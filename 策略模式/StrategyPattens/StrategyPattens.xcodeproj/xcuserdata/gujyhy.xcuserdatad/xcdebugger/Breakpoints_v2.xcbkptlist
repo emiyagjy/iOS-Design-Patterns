@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StrategyPattens/ValidateInput/EmailValidate.swift"
+            timestampString = "536744755.961852"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "validateInput(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StrategyPattens.EmailValidate.validateInput(__ObjC.UITextField) -&gt; Swift.Bool"
+                  moduleName = "StrategyPattens"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gujyhy/MyStudy/%E5%BC%80%E5%8F%91/Github/iOS-Design-Patterns/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/StrategyPattens/StrategyPattens/ValidateInput/EmailValidate.swift"
+                  timestampString = "536744540.758621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StrategyPattens.EmailValidate.validateInput(__ObjC.UITextField) -&gt; Swift.Bool"
+                  moduleName = "StrategyPattens"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gujyhy/MyStudy/%E5%BC%80%E5%8F%91/Github/iOS-Design-Patterns/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/StrategyPattens/StrategyPattens/ValidateInput/EmailValidate.swift"
+                  timestampString = "536744540.761674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1369">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StrategyPattens/ValidateInput/EmailValidate.swift"
+            timestampString = "536744755.967154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "validateInput(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

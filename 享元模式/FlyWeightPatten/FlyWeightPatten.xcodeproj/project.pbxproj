@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1D5108200359EB0050A2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5107200359EB0050A2BD /* AppDelegate.swift */; };
+		EC1D510A200359EB0050A2BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5109200359EB0050A2BD /* ViewController.swift */; };
+		EC1D510D200359EB0050A2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1D510B200359EB0050A2BD /* Main.storyboard */; };
+		EC1D510F200359EB0050A2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1D510E200359EB0050A2BD /* Assets.xcassets */; };
+		EC1D5112200359EB0050A2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1D5110200359EB0050A2BD /* LaunchScreen.storyboard */; };
+		EC1D511D200359EB0050A2BD /* FlyWeightPattenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D511C200359EB0050A2BD /* FlyWeightPattenTests.swift */; };
+		EC1D5128200359EB0050A2BD /* FlyWeightPattenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5127200359EB0050A2BD /* FlyWeightPattenUITests.swift */; };
+		EC1D513620035DA50050A2BD /* CoffeeFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D513520035DA50050A2BD /* CoffeeFlavor.swift */; };
+		EC1D5138200362EF0050A2BD /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5137200362EF0050A2BD /* CoffeeMenu.swift */; };
+		EC1D513A200367800050A2BD /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5139200367800050A2BD /* CoffeeShop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1D5119200359EB0050A2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1D50FC200359EA0050A2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D5103200359EB0050A2BD;
+			remoteInfo = FlyWeightPatten;
+		};
+		EC1D5124200359EB0050A2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1D50FC200359EA0050A2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D5103200359EB0050A2BD;
+			remoteInfo = FlyWeightPatten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1D5104200359EB0050A2BD /* FlyWeightPatten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyWeightPatten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D5107200359EB0050A2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1D5109200359EB0050A2BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1D510C200359EB0050A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1D510E200359EB0050A2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1D5111200359EB0050A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1D5113200359EB0050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1D5118200359EB0050A2BD /* FlyWeightPattenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyWeightPattenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D511C200359EB0050A2BD /* FlyWeightPattenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightPattenTests.swift; sourceTree = "<group>"; };
+		EC1D511E200359EB0050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1D5123200359EB0050A2BD /* FlyWeightPattenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyWeightPattenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D5127200359EB0050A2BD /* FlyWeightPattenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightPattenUITests.swift; sourceTree = "<group>"; };
+		EC1D5129200359EB0050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1D513520035DA50050A2BD /* CoffeeFlavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFlavor.swift; sourceTree = "<group>"; };
+		EC1D5137200362EF0050A2BD /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		EC1D5139200367800050A2BD /* CoffeeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1D5101200359EB0050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D5115200359EB0050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D5120200359EB0050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1D50FB200359EA0050A2BD = {
+			isa = PBXGroup;
+			children = (
+				EC1D5106200359EB0050A2BD /* FlyWeightPatten */,
+				EC1D511B200359EB0050A2BD /* FlyWeightPattenTests */,
+				EC1D5126200359EB0050A2BD /* FlyWeightPattenUITests */,
+				EC1D5105200359EB0050A2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1D5105200359EB0050A2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D5104200359EB0050A2BD /* FlyWeightPatten.app */,
+				EC1D5118200359EB0050A2BD /* FlyWeightPattenTests.xctest */,
+				EC1D5123200359EB0050A2BD /* FlyWeightPattenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1D5106200359EB0050A2BD /* FlyWeightPatten */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D5107200359EB0050A2BD /* AppDelegate.swift */,
+				EC1D5109200359EB0050A2BD /* ViewController.swift */,
+				EC1D513520035DA50050A2BD /* CoffeeFlavor.swift */,
+				EC1D5137200362EF0050A2BD /* CoffeeMenu.swift */,
+				EC1D5139200367800050A2BD /* CoffeeShop.swift */,
+				EC1D510B200359EB0050A2BD /* Main.storyboard */,
+				EC1D510E200359EB0050A2BD /* Assets.xcassets */,
+				EC1D5110200359EB0050A2BD /* LaunchScreen.storyboard */,
+				EC1D5113200359EB0050A2BD /* Info.plist */,
+			);
+			path = FlyWeightPatten;
+			sourceTree = "<group>";
+		};
+		EC1D511B200359EB0050A2BD /* FlyWeightPattenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D511C200359EB0050A2BD /* FlyWeightPattenTests.swift */,
+				EC1D511E200359EB0050A2BD /* Info.plist */,
+			);
+			path = FlyWeightPattenTests;
+			sourceTree = "<group>";
+		};
+		EC1D5126200359EB0050A2BD /* FlyWeightPattenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D5127200359EB0050A2BD /* FlyWeightPattenUITests.swift */,
+				EC1D5129200359EB0050A2BD /* Info.plist */,
+			);
+			path = FlyWeightPattenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1D5103200359EB0050A2BD /* FlyWeightPatten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D512C200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPatten" */;
+			buildPhases = (
+				EC1D5100200359EB0050A2BD /* Sources */,
+				EC1D5101200359EB0050A2BD /* Frameworks */,
+				EC1D5102200359EB0050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyWeightPatten;
+			productName = FlyWeightPatten;
+			productReference = EC1D5104200359EB0050A2BD /* FlyWeightPatten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1D5117200359EB0050A2BD /* FlyWeightPattenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D512F200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPattenTests" */;
+			buildPhases = (
+				EC1D5114200359EB0050A2BD /* Sources */,
+				EC1D5115200359EB0050A2BD /* Frameworks */,
+				EC1D5116200359EB0050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1D511A200359EB0050A2BD /* PBXTargetDependency */,
+			);
+			name = FlyWeightPattenTests;
+			productName = FlyWeightPattenTests;
+			productReference = EC1D5118200359EB0050A2BD /* FlyWeightPattenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1D5122200359EB0050A2BD /* FlyWeightPattenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D5132200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPattenUITests" */;
+			buildPhases = (
+				EC1D511F200359EB0050A2BD /* Sources */,
+				EC1D5120200359EB0050A2BD /* Frameworks */,
+				EC1D5121200359EB0050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1D5125200359EB0050A2BD /* PBXTargetDependency */,
+			);
+			name = FlyWeightPattenUITests;
+			productName = FlyWeightPattenUITests;
+			productReference = EC1D5123200359EB0050A2BD /* FlyWeightPattenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1D50FC200359EA0050A2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GujyHy;
+				TargetAttributes = {
+					EC1D5103200359EB0050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC1D5117200359EB0050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1D5103200359EB0050A2BD;
+					};
+					EC1D5122200359EB0050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1D5103200359EB0050A2BD;
+					};
+				};
+			};
+			buildConfigurationList = EC1D50FF200359EA0050A2BD /* Build configuration list for PBXProject "FlyWeightPatten" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1D50FB200359EA0050A2BD;
+			productRefGroup = EC1D5105200359EB0050A2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1D5103200359EB0050A2BD /* FlyWeightPatten */,
+				EC1D5117200359EB0050A2BD /* FlyWeightPattenTests */,
+				EC1D5122200359EB0050A2BD /* FlyWeightPattenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1D5102200359EB0050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D5112200359EB0050A2BD /* LaunchScreen.storyboard in Resources */,
+				EC1D510F200359EB0050A2BD /* Assets.xcassets in Resources */,
+				EC1D510D200359EB0050A2BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D5116200359EB0050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D5121200359EB0050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1D5100200359EB0050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D5138200362EF0050A2BD /* CoffeeMenu.swift in Sources */,
+				EC1D513A200367800050A2BD /* CoffeeShop.swift in Sources */,
+				EC1D510A200359EB0050A2BD /* ViewController.swift in Sources */,
+				EC1D513620035DA50050A2BD /* CoffeeFlavor.swift in Sources */,
+				EC1D5108200359EB0050A2BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D5114200359EB0050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D511D200359EB0050A2BD /* FlyWeightPattenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D511F200359EB0050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D5128200359EB0050A2BD /* FlyWeightPattenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1D511A200359EB0050A2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D5103200359EB0050A2BD /* FlyWeightPatten */;
+			targetProxy = EC1D5119200359EB0050A2BD /* PBXContainerItemProxy */;
+		};
+		EC1D5125200359EB0050A2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D5103200359EB0050A2BD /* FlyWeightPatten */;
+			targetProxy = EC1D5124200359EB0050A2BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1D510B200359EB0050A2BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1D510C200359EB0050A2BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1D5110200359EB0050A2BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1D5111200359EB0050A2BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1D512A200359EB0050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1D512B200359EB0050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1D512D200359EB0050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPatten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPatten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1D512E200359EB0050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPatten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPatten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1D5130200359EB0050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPattenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPattenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyWeightPatten.app/FlyWeightPatten";
+			};
+			name = Debug;
+		};
+		EC1D5131200359EB0050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPattenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPattenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyWeightPatten.app/FlyWeightPatten";
+			};
+			name = Release;
+		};
+		EC1D5133200359EB0050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPattenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPattenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyWeightPatten;
+			};
+			name = Debug;
+		};
+		EC1D5134200359EB0050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyWeightPattenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.FlyWeightPattenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyWeightPatten;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1D50FF200359EA0050A2BD /* Build configuration list for PBXProject "FlyWeightPatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D512A200359EB0050A2BD /* Debug */,
+				EC1D512B200359EB0050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D512C200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D512D200359EB0050A2BD /* Debug */,
+				EC1D512E200359EB0050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D512F200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPattenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D5130200359EB0050A2BD /* Debug */,
+				EC1D5131200359EB0050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D5132200359EB0050A2BD /* Build configuration list for PBXNativeTarget "FlyWeightPattenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D5133200359EB0050A2BD /* Debug */,
+				EC1D5134200359EB0050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1D50FC200359EA0050A2BD /* Project object */;
+}

@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1D50CE200348C60050A2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D50CD200348C60050A2BD /* AppDelegate.swift */; };
+		EC1D50D0200348C60050A2BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D50CF200348C60050A2BD /* ViewController.swift */; };
+		EC1D50D3200348C60050A2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1D50D1200348C60050A2BD /* Main.storyboard */; };
+		EC1D50D5200348C60050A2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1D50D4200348C60050A2BD /* Assets.xcassets */; };
+		EC1D50D8200348C60050A2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1D50D6200348C60050A2BD /* LaunchScreen.storyboard */; };
+		EC1D50E3200348C70050A2BD /* ChainOfResponsibilityPattenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D50E2200348C70050A2BD /* ChainOfResponsibilityPattenTests.swift */; };
+		EC1D50EE200348C70050A2BD /* ChainOfResponsibilityPattenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D50ED200348C70050A2BD /* ChainOfResponsibilityPattenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1D50DF200348C70050A2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1D50C2200348C60050A2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D50C9200348C60050A2BD;
+			remoteInfo = ChainOfResponsibilityPatten;
+		};
+		EC1D50EA200348C70050A2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1D50C2200348C60050A2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1D50C9200348C60050A2BD;
+			remoteInfo = ChainOfResponsibilityPatten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1D50CA200348C60050A2BD /* ChainOfResponsibilityPatten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainOfResponsibilityPatten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D50CD200348C60050A2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1D50CF200348C60050A2BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1D50D2200348C60050A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1D50D4200348C60050A2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1D50D7200348C60050A2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1D50D9200348C60050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1D50DE200348C70050A2BD /* ChainOfResponsibilityPattenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainOfResponsibilityPattenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D50E2200348C70050A2BD /* ChainOfResponsibilityPattenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattenTests.swift; sourceTree = "<group>"; };
+		EC1D50E4200348C70050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1D50E9200348C70050A2BD /* ChainOfResponsibilityPattenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainOfResponsibilityPattenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1D50ED200348C70050A2BD /* ChainOfResponsibilityPattenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityPattenUITests.swift; sourceTree = "<group>"; };
+		EC1D50EF200348C70050A2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1D50C7200348C60050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50DB200348C70050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50E6200348C70050A2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1D50C1200348C60050A2BD = {
+			isa = PBXGroup;
+			children = (
+				EC1D50CC200348C60050A2BD /* ChainOfResponsibilityPatten */,
+				EC1D50E1200348C70050A2BD /* ChainOfResponsibilityPattenTests */,
+				EC1D50EC200348C70050A2BD /* ChainOfResponsibilityPattenUITests */,
+				EC1D50CB200348C60050A2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1D50CB200348C60050A2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D50CA200348C60050A2BD /* ChainOfResponsibilityPatten.app */,
+				EC1D50DE200348C70050A2BD /* ChainOfResponsibilityPattenTests.xctest */,
+				EC1D50E9200348C70050A2BD /* ChainOfResponsibilityPattenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1D50CC200348C60050A2BD /* ChainOfResponsibilityPatten */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D50CD200348C60050A2BD /* AppDelegate.swift */,
+				EC1D50CF200348C60050A2BD /* ViewController.swift */,
+				EC1D50D1200348C60050A2BD /* Main.storyboard */,
+				EC1D50D4200348C60050A2BD /* Assets.xcassets */,
+				EC1D50D6200348C60050A2BD /* LaunchScreen.storyboard */,
+				EC1D50D9200348C60050A2BD /* Info.plist */,
+			);
+			path = ChainOfResponsibilityPatten;
+			sourceTree = "<group>";
+		};
+		EC1D50E1200348C70050A2BD /* ChainOfResponsibilityPattenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D50E2200348C70050A2BD /* ChainOfResponsibilityPattenTests.swift */,
+				EC1D50E4200348C70050A2BD /* Info.plist */,
+			);
+			path = ChainOfResponsibilityPattenTests;
+			sourceTree = "<group>";
+		};
+		EC1D50EC200348C70050A2BD /* ChainOfResponsibilityPattenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D50ED200348C70050A2BD /* ChainOfResponsibilityPattenUITests.swift */,
+				EC1D50EF200348C70050A2BD /* Info.plist */,
+			);
+			path = ChainOfResponsibilityPattenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1D50C9200348C60050A2BD /* ChainOfResponsibilityPatten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D50F2200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPatten" */;
+			buildPhases = (
+				EC1D50C6200348C60050A2BD /* Sources */,
+				EC1D50C7200348C60050A2BD /* Frameworks */,
+				EC1D50C8200348C60050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainOfResponsibilityPatten;
+			productName = ChainOfResponsibilityPatten;
+			productReference = EC1D50CA200348C60050A2BD /* ChainOfResponsibilityPatten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1D50DD200348C70050A2BD /* ChainOfResponsibilityPattenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D50F5200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPattenTests" */;
+			buildPhases = (
+				EC1D50DA200348C70050A2BD /* Sources */,
+				EC1D50DB200348C70050A2BD /* Frameworks */,
+				EC1D50DC200348C70050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1D50E0200348C70050A2BD /* PBXTargetDependency */,
+			);
+			name = ChainOfResponsibilityPattenTests;
+			productName = ChainOfResponsibilityPattenTests;
+			productReference = EC1D50DE200348C70050A2BD /* ChainOfResponsibilityPattenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1D50E8200348C70050A2BD /* ChainOfResponsibilityPattenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1D50F8200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPattenUITests" */;
+			buildPhases = (
+				EC1D50E5200348C70050A2BD /* Sources */,
+				EC1D50E6200348C70050A2BD /* Frameworks */,
+				EC1D50E7200348C70050A2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1D50EB200348C70050A2BD /* PBXTargetDependency */,
+			);
+			name = ChainOfResponsibilityPattenUITests;
+			productName = ChainOfResponsibilityPattenUITests;
+			productReference = EC1D50E9200348C70050A2BD /* ChainOfResponsibilityPattenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1D50C2200348C60050A2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GujyHy;
+				TargetAttributes = {
+					EC1D50C9200348C60050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC1D50DD200348C70050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1D50C9200348C60050A2BD;
+					};
+					EC1D50E8200348C70050A2BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1D50C9200348C60050A2BD;
+					};
+				};
+			};
+			buildConfigurationList = EC1D50C5200348C60050A2BD /* Build configuration list for PBXProject "ChainOfResponsibilityPatten" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1D50C1200348C60050A2BD;
+			productRefGroup = EC1D50CB200348C60050A2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1D50C9200348C60050A2BD /* ChainOfResponsibilityPatten */,
+				EC1D50DD200348C70050A2BD /* ChainOfResponsibilityPattenTests */,
+				EC1D50E8200348C70050A2BD /* ChainOfResponsibilityPattenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1D50C8200348C60050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D50D8200348C60050A2BD /* LaunchScreen.storyboard in Resources */,
+				EC1D50D5200348C60050A2BD /* Assets.xcassets in Resources */,
+				EC1D50D3200348C60050A2BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50DC200348C70050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50E7200348C70050A2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1D50C6200348C60050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D50D0200348C60050A2BD /* ViewController.swift in Sources */,
+				EC1D50CE200348C60050A2BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50DA200348C70050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D50E3200348C70050A2BD /* ChainOfResponsibilityPattenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1D50E5200348C70050A2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1D50EE200348C70050A2BD /* ChainOfResponsibilityPattenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1D50E0200348C70050A2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D50C9200348C60050A2BD /* ChainOfResponsibilityPatten */;
+			targetProxy = EC1D50DF200348C70050A2BD /* PBXContainerItemProxy */;
+		};
+		EC1D50EB200348C70050A2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1D50C9200348C60050A2BD /* ChainOfResponsibilityPatten */;
+			targetProxy = EC1D50EA200348C70050A2BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1D50D1200348C60050A2BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1D50D2200348C60050A2BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1D50D6200348C60050A2BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1D50D7200348C60050A2BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1D50F0200348C70050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1D50F1200348C70050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1D50F3200348C70050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPatten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPatten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1D50F4200348C70050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPatten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPatten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC1D50F6200348C70050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPattenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPattenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainOfResponsibilityPatten.app/ChainOfResponsibilityPatten";
+			};
+			name = Debug;
+		};
+		EC1D50F7200348C70050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPattenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPattenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainOfResponsibilityPatten.app/ChainOfResponsibilityPatten";
+			};
+			name = Release;
+		};
+		EC1D50F9200348C70050A2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPattenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPattenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChainOfResponsibilityPatten;
+			};
+			name = Debug;
+		};
+		EC1D50FA200348C70050A2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChainOfResponsibilityPattenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebei.Pattens.ChainOfResponsibilityPattenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChainOfResponsibilityPatten;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1D50C5200348C60050A2BD /* Build configuration list for PBXProject "ChainOfResponsibilityPatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D50F0200348C70050A2BD /* Debug */,
+				EC1D50F1200348C70050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D50F2200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D50F3200348C70050A2BD /* Debug */,
+				EC1D50F4200348C70050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D50F5200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPattenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D50F6200348C70050A2BD /* Debug */,
+				EC1D50F7200348C70050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1D50F8200348C70050A2BD /* Build configuration list for PBXNativeTarget "ChainOfResponsibilityPattenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1D50F9200348C70050A2BD /* Debug */,
+				EC1D50FA200348C70050A2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1D50C2200348C60050A2BD /* Project object */;
+}
